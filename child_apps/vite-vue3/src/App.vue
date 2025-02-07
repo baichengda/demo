@@ -12,7 +12,7 @@
 import { notification } from 'ant-design-vue'
 import { onMounted } from 'vue';
 
-console.log("vite",document.body)
+console.log("vite子应用",document.body)
 onMounted(() =>{
   notification['info']({
         message:'通知',
